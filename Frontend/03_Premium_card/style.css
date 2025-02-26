@@ -1,0 +1,76 @@
+.body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+    margin: 12px;
+}
+
+.section {
+    height: 200px;
+    width: 275px;
+    border: 1px solid black;
+    margin-top: 12px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(80, 80, 221, 0.922);
+}
+
+
+.logo img {
+    height: 30px;
+    width: 30px;
+}
+
+.hero {
+    border: 2px solid black;
+    height: 530px;
+    width: 325px;
+    border-radius: 30px;
+    background-color: rgba(44, 43, 43, 0.715);
+}
+
+.card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    margin-right: 120px;
+    font-size: 25px;
+}
+
+p {
+    color: rgba(139, 131, 131, 0.728);
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 15px;
+    margin-left: 23px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-color: rgba(80, 80, 221, 0.922);
+    color: whitesmoke;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgba(0, 123, 255, 0.922);
+    transform: translateX(3px);
+}
